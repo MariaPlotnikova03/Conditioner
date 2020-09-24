@@ -20,14 +20,13 @@ public class Conditioner {
     public int getMaxTemperature() {
         return maxTemperature;
     }
-
+    public void setMaxTemperature(int maxTemperature) {
+        this.maxTemperature = maxTemperature;
+    }
     public int getCurrentTemperature() {
         return currentTemperature;
     }
 
-    public void setMaxTemperature(int maxTemperature) {
-        this.maxTemperature = maxTemperature;
-    }
 
     public void setCurrentTemperature(int currentTemperature) {
         if (currentTemperature > maxTemperature)
